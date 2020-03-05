@@ -1,0 +1,12 @@
+破解步骤 ：看不明白英文就看我的博客，中文说明……
+
+1. Run the IDE and evalutate for free.
+2. Click IDE menu "Configure" or "Help" -> "Edit Custom VM Options..."
+3. Append "-javaagent:/absolute/path/to/jetbrains-agent.jar" to end line.
+    eg:
+      windows:  -javaagent:C:\sanet.st\jetbrains-agent.jar
+4. Restart IDE.
+5. Click IDE menu "Help" -> "Register..." or "Configure" -> "Manage License..."
+   Support "License server" and "Activation code":
+   1). Entry license server address: http://fls.jetbrains-agent.com
+       Or click the button: "Discover Server" to fill automaticly.
